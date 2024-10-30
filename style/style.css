@@ -1,0 +1,253 @@
+@import 'reset.css';
+
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url(../fonts/OldStandardTT-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url(../fonts/OldStandardTT-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url(../fonts/OldStandardTT-Italic.ttf) format("truetype");
+    font-style: italic;
+    font-weight: lighter;
+}
+
+body {
+    background-color: #630606;
+    display: flex;
+    justify-content: center;
+    font-family: 'Old Standard TT';
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    width: 1440px;
+}
+
+
+.section {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.img1 {
+    position: absolute;
+    margin-top: 240px;
+}
+
+.img2 {
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 24px;
+}
+
+.splash-text {
+    font-size: 80px;
+    margin-left: 180px;
+    margin-top: 520px;
+    position: absolute;
+}
+
+.section2 {
+    margin-top: 1024px;
+    margin-left: 194px;
+    width: 100%;
+}
+
+.text0 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.letter1 {
+    margin-left: 264px;
+    position: absolute;
+}
+
+.letter2 {
+    margin-top: 432px;
+    position: absolute;
+}
+
+.letter3 {
+    margin-left: 528px;
+    margin-top: 432px;
+    position: absolute;
+}
+
+.section3 {
+    margin-top: 1024px;
+    width: 100%;
+}
+
+.img3 {
+    position: absolute;
+    margin-left: 472px;
+}
+
+.text-wrapper {
+    position: absolute;
+    text-align: center;
+    margin-left: 628px;
+    margin-top: 200px;
+}
+
+.text-wrapper h1 {
+    margin: 0;
+    font-size: 51px;
+}
+
+.text-wrapper p {
+    font-weight: normal;
+    margin: 0;
+    font-size: 30px;
+}
+
+.img4 {
+    margin-top: 252px;
+}
+
+.img5 {
+    margin-top: 252px;
+}
+
+.section4 {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.img6 {
+    position: absolute;
+    margin-left: 160px;
+}
+
+.text1 {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 116px;
+    font-size: 52px;
+}
+
+.bottles {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    margin-right: 200px;
+}
+
+.bottle-wrp {
+    width: 308px;
+    height: 941px;
+}
+
+.bottle-wrp.down {
+    padding-top: 220px;
+}
+
+.vine-type {
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    margin-top: 519px;
+    margin-left: 124px;
+    font-weight: bold;
+}
+
+.italic {
+    margin-left: 100px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.regular {
+    margin-left: 100px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.wrapper {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+    gap: 70%;
+}
+
+.left-tickets {
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+}
+
+.right-tickets {
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+}
+
+.left-tickets img {
+    transform: translateX(-50%) rotate(90deg);
+}
+
+.section5 {
+    margin-top: 400px;
+    width: 100%;
+}
+
+.section6 {
+    margin-top: 54px;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.sign {
+    position: absolute;
+    color: black;
+    text-align: center;
+    margin-left: 34px;
+    margin-top: 92px;
+}
+
+.sign h1 {
+    font-size: 80px;
+}
+
+.sign p {
+    font-size: 70px;
+}
+
+.logo {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: black;
+    font-size: 60px;
+    width: 830px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 663px;
+    margin-left: 502px;
+}
+
+.logo img {
+    margin-left: 31px;
+}
+.logo h1 {
+    margin-right: 51px;
+}
